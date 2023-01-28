@@ -1,0 +1,35 @@
+body {
+    background-color:#f7efd0;
+}
+
+/*header*/
+header {
+    background-image: linear-gradient(white,#f5e1a6,#f2d479);
+}
+.rowheader {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+/*do you need class for column then?*/
+h1 {
+    font-size: 100px;
+}
+/*main*/
+.mainmenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainrecipe{
+    background-color: #f5e1a6;
+    width: 60%;
+    border: 5px, solid, black;
+    border-radius: 50px;
+    padding: 20px;
+    margin: 20px;
+}
+ main img {
+    height: 400px;
+}
+/*footer*/
