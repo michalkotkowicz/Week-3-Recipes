@@ -14,7 +14,6 @@ header {
  align-items: center;
  height: 100px;
  padding-bottom: 5px;
- border-bottom: 5px solid black;
 }
 .logo{
     height: 100px;
@@ -40,14 +39,16 @@ a{
     font-size: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-/*do you need class for column then?*/
+/*main*/
 h1 {
+    background-color: #b69121;
     font-size: 100px;
     display: flex;
     justify-content: center;
+    margin: 0px;
+    border-bottom: 5px solid black;
+    padding: 65px;
 }
-/*main*/
 .mainmenu {
     display: flex;
     flex-direction: column;
@@ -70,3 +71,7 @@ h1 {
     height: 600px;
 }
 /*footer*/
+footer p{
+display: flex;
+justify-content: center;
+}
