@@ -1,5 +1,6 @@
 body {
     background-color:#f7efd0;
+    margin: 0px;
 }
 
 /*header*/
@@ -10,7 +11,33 @@ header {
  display: flex;
  justify-content: space-between;
  align-items: center;
+ height: 100px;
 }
+.logo{
+    height: 100px;
+    border: 3px solid black;
+    margin-top: 10px;
+}
+.navbuttons{
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    margin: 20px;
+    list-style-type: none;
+}
+button{
+    background-color: black;
+    padding: 20px;
+    border-radius: 30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 /*do you need class for column then?*/
 h1 {
     font-size: 100px;
@@ -22,6 +49,8 @@ h1 {
     align-items: center;
 }
 .mainrecipe{
+    display: flex;
+    justify-content: space-around;
     background-color: #f5e1a6;
     width: 60%;
     border: 5px solid black;
@@ -29,7 +58,10 @@ h1 {
     padding: 20px;
     margin: 20px;
 }
+.maincontent{
+    width: 40%;
+}
  main img {
-    height: 400px;
+    height: 600px;
 }
 /*footer*/
